@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOLD WING COOLER</title>
+    <link rel="icon" href="/image/logo.png">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-sm bg-body-tertiary  border  px-sm-3 px-lg-5 ">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-3 text-primary-emphasis" href="/index.html">GOLD WING COOLER</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-primary-emphasis" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-2 dropdown">
+                        <a class="nav-link text-primary-emphasis dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu mt-3 ">
+                            <li><a class="dropdown-item text-primary-emphasis" href="/Products/GW10.html">GW 10</a></li>
+                            <li><a class="dropdown-item text-primary-emphasis" href="/Products/GW12.html">GW 12</a></li>
+                            <li><a class="dropdown-item text-primary-emphasis" href="/Products/GW14.html">GW 14</a></li>
+                            <li><a class="dropdown-item text-primary-emphasis" href="/Products/GW16.html">GW 16</a></li>
+                            <li><a class="dropdown-item text-primary-emphasis" href="/Products/GW18.html">GW 18</a></li>
+                            <li><a class="dropdown-item text-primary-emphasis" href="/Products/GW16t.html">GW 16
+                                    Tower</a></li>
+                            <li><a class="dropdown-item text-primary-emphasis" href="/Products/GW18t.html">GW 18
+                                    Tower</a></li>
+                            <li><a class="dropdown-item text-primary-emphasis" href="/Products/GW16s.html">GW 16 S</a>
+                            </li>
+                            <li><a class="dropdown-item text-primary-emphasis" href="/Products/GW20.html">GW 20</a></li>
+                            <li><a class="dropdown-item text-primary-emphasis" href="/Products/Tent.html">Tent</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-primary-emphasis" href="/Table.html">Table</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-primary-emphasis" href="/About.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Home -->
+    <section class=" my-3 ">
+        <img src="/image/poster.png" alt="" class="d-block mx-auto" style="width: 95vw;">
+    </section>
+
+
+    <!-- Category -->
+    <section class="container text-primary-emphasis">
+        <h4>Category</h4>
+        <div class="tab">
+            <ul class="nav justify-content-center ">
+                <li class="nav-item">
+                    <button class="nav-link text-primary-emphasis px-2 px-sm-4 " onclick="openTab(event, 'tab1')">Small
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link  text-primary-emphasis px-2 px-sm-4"
+                        onclick="openTab(event, 'tab2')">Medium</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link  text-primary-emphasis px-2 px-sm-4"
+                        onclick="openTab(event, 'tab3')">Large</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link text-primary-emphasis px-2 px-sm-4" onclick="openTab(event, 'tab4')">Extra
+                        Large</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link text-primary-emphasis px-2 px-sm-4" onclick="openTab(event, 'tab5')">All
+                        Products
+                </li>
+            </ul>
+        </div>
+
+        <div id="tab1" class="tabcontent" style="  display: none;">
+            <div class=' d-inline-block text-center mx-auto  w-100'>
+                <p class='text-start mx-0 mx-sm-5'>Small</p>
+                <a href="/Products/GW10.html"><img src="/image/p10f.png" alt="" class="m-2 w-Cat-img"></a>
+                <a href="/Products/GW12.html"><img src="/image/p12f.png" alt="" class="m-2 w-Cat-img"></a>
+                <a href="/Products/GW14.html"><img src="/image/p14f.png" alt="" class="m-2 w-Cat-img"></a>
+            </div>
+        </div>
+        <div id="tab2" class="tabcontent" style="  display: none;">
+            <div class=' d-inline-block text-center mx-auto  w-100'>
+                <p class='text-start mx-0 mx-sm-5'>Medium</p>
+                <a href="/Products/GW16.html"><img src="/image/p16f.png" alt="" class="m-2 w-Cat-img"></a>
+                <a href="/Products/GW16t.html"><img src="/image/p16tf.png" alt="" class="m-2 w-Cat-img"></a>
+                <a href="/Products/GW16s.html"><img src="/image/p16sf.png" alt="" class="m-2 w-Cat-img"></a>
+            </div>
+        </div>
+        <div id="tab3" class="tabcontent" style="  display: none;">
+            <div class=' d-inline-block text-center mx-auto  w-100'>
+                <p class='text-start mx-0 mx-sm-5'>Large</p>
+                <a href="/Products/GW18.html"><img src="/image/p18f.png" alt="" class="m-2 w-Cat-img"></a>
+                <a href="/Products/GW18t.html"><img src="/image/p18tf.png" alt="" class="m-2 w-Cat-img"></a>
+            </div>
+        </div>
+        <div id="tab4" class="tabcontent" style="  display: none;">
+            <div class=' d-inline-block text-center mx-auto  w-100'>
+                <p class='text-start mx-0 mx-sm-5'>Extra Large</p>
+                <a href="/Products/GW20.html"><img src="/image/p20f.png" alt="" class="m-2 w-Cat-img"></a>
+                <a href="/Products/Tent.html"><img src="/image/ptentf.png" alt="" class="m-2 w-Cat-img"></a>
+            </div>
+        </div>
+        <div id="tab5" class="tabcontent" style="  display: none;">
+            <div class=' d-inline-block text-center mx-auto  w-100'>
+                <p class='text-start mx-0 mx-sm-5'>All Products</p>
+                <a href="/Products/GW10.html"><img src="/image/p10f.png" alt="" class="m-2 w-Cat-img"></a>
+                <a href="/Products/GW12.html"><img src="/image/p12f.png" alt="" class="m-2 w-Cat-img"></a>
+                <a href="/Products/GW14.html"><img src="/image/p14f.png" alt="" class="m-2 w-Cat-img"></a>
+                <a href="/Products/GW16.html"><img src="/image/p16f.png" alt="" class="m-2 w-Cat-img"></a>
+                <a href="/Products/GW16t.html"><img src="/image/p16tf.png" alt="" class="m-2 w-Cat-img"></a>
+                <a href="/Products/GW16s.html"><img src="/image/p16sf.png" alt="" class="m-2 w-Cat-img"></a>
+                <a href="/Products/GW18.html"><img src="/image/p18f.png" alt="" class="m-2 w-Cat-img"></a>
+                <a href="/Products/GW18t.html"><img src="/image/p18tf.png" alt="" class="m-2 w-Cat-img"></a>
+                <a href="/Products/GW20.html"><img src="/image/p20f.png" alt="" class="m-2 w-Cat-img"></a>
+                <a href="/Products/Tent.html"><img src="/image/ptentf.png" alt="" class="m-2 w-Cat-img"></a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Set an initial tab to be open
+        document.getElementById("tab1").style.display = "block";
+        document.getElementsByClassName("tablinks")[0].className += " active";
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
